@@ -12,7 +12,7 @@ st.title("Data Visualization: Imports and Exports")
 import_export = pd.read_csv(r"Imports_Exports_Dataset.csv")
 
 # Sample 3001 rows from the dataset
-my_data = import_export.sample(n=3001, replace=False, random_state=55031)
+my_data = import_export.sample(n=3001, replace=False, random_state=55001)
 
 # Sidebar filters
 st.sidebar.header("Filters")
